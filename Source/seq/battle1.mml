@@ -1,0 +1,122 @@
+
+#Title		í“¬‚a‚f‚l@‚»‚Ì‚P
+#Title2		Composer : ‚j‚m‚m
+
+
+;ƒhƒ‰ƒ€ƒp[ƒg—pƒ}ƒNƒİ’è
+!!og @9  V84  ?o4c   ; open H.H.
+!!hg @10 V70  ?o4c   ; closeH.H.
+
+
+A	T185
+A	@4 V116 E240,120,110,250
+B	@3 V106 E255,125,110,50 Y7,140,80,40
+C	@3 V98  E255,125,110,50 Y7,140,80,40
+D	@3 V104 E200,125,110,50 Y7,140,80,40
+E	@3 V90  E200,125,110,50 Y7,140,80,40
+F	=1
+
+
+A	l8 o2
+	r4. L
+	dddddddd   dddddddd   _1dddddddd   dddddddd_-1
+	dddddddd   dddddddd   eerre-rrdrrd-rc4
+
+	cccccccc   gccccg   cccccccc   gccccccc
+	<bbbbbbbb   bbbbbbbb   _-1bbbbbbbb   bbbbbbbb
+	>eeeeeeee_1   <bbbbbbbb>
+	cccccccc   gccccccg   _-1dddddddd   dddddddd
+
+	eeeeeeee   eeeeeeee   dddddddd   dddddddd
+	<bbbbbbbb   bbbbbbbb_1   bbbbbbbb   >_-1dddddadd
+	eeeeeeee   eeeeeeee   dddddddd   dddddddd
+	<aa>e<aaaaa   aaaaa>a<aa>   _1eebeeeee   eeee>e<eee
+	<_-1aaaaaaaa   _1>eeeeeeee<   b-b-b-b-b-b-b-b-   aaaaaaaa
+
+
+B	l8 o4
+	r4. L
+	d4>c(20c4)20c(20c4)20   c(20c4)20<b(20b4)20>c4   <b-2..r   f4.g2r
+	f4>c(20c4)20c(20c4)20   c(20c4)20<b(20b4)20>c4   (20c)20<rrrrrrrrrrrg-f
+
+	g-f(20f)20f&f2&   f2e-d   g-f(20f)20f&f2&   f4(20f)20e-4.f4
+	d1&   d4.(20d)20d(20d)20g4   f4ef&f2&   f2d2
+	g-4fg-&g-2   f4.e-4.f4
+	g-f(20f)20f&f2&   f2.e-d   g-f(20f)20f&f2&   f4.  @1  e-4.f4
+
+	d-2..a-&   a-1   d-2..b-&   b-bb-&a-&a-2
+	d-2.e-4   f4a-4g-4f4   f4g-e-&e-2&   e-1
+	d-2..a-&   a-1   d-2..b-&   b-b>d-<b-4.b4
+	b-4.e-&e-2&   e-2rre-4   e4.b&b2&   b2.b4
+	b-4.e-4.g-4&   g-2e2   d1   c+4.d4.e4   @3 l8 o4
+
+
+C	l8 o4
+	r4. L
+	c4f(20f4)20f(20f4)20   f(20f4)20f(20f4)20f4   e-2..r   d-4.e-2r
+	d4f(20f4)20f(20f4)20   f(20f4)20f(20f4)20f4   (20f)20rrrrrrrrrrrcr
+
+	de-(20e-)20e-&e-2&   e-2(20e-4)20   de-(20e-)20e-&e-2&   e-4(20e-)20c4.<b4
+	a1&   a4.(20a)20a(20a)20>d4   d4cd&d2&   d2<b-2>
+	c4cc&c2   e-4.<b4.>d-4
+	de-(20e-)20e-&e-2&   e-2.(20e-4)20   d-<b(20b)20b&b2&   b4.  @1 b4.>d-4
+
+	<b-2..>d-&   d-1   <a-2..>g-&   g-a-g-&f&f2
+	<b-2.>c4   d-4f4e-4d-4   d-4e-<b&b2&   b1
+	b-2..>d-&   d-1   <g2..>g&   ga-b-g4.g4
+	e-4.<b&b2&   b2rrb4   b4.>g&g2&   g2.g4
+	e-4.<b4.b4&   b2b2   b-1   a4.b4.>c+4    @3 l8 o4
+
+
+D	l24 o5
+	c<bb-aa-gg-fe @5 L l8
+	a1   >c1<   b-1&   b-4.b-&b-2
+	a1&   a1   V112  o4 rb-(20b-4)20a(20a4)20a-(20a-4)20g(20g)20g-4
+
+	V108 o5 r2r c4.&   c2.   r2.e-4&   e-1
+	d1&   d2..r    r1    rrd32&c+16.&d& d2
+	(20d)20rrrrd-(20d-r)20   <g-4.g-4.b4>
+	c(20c)20rrrrrr   V112 o4 g-&frf&f4.r   b-&a-ra-&a-4.&b-16&>c16& d-1&
+
+	d-1&   d-1   <r2..  b-&   b-&b&b-&a-&a-2
+	a-1&   a-1   f4&g-&e-4rr  >e-&   e-4&d-4&<b4&b-4&
+	b-1&   b-2..&  a-&   g2..&a-16&b-16&    >e-1
+	V104 o4 r2.b-4&   b-e-2..   g1&    g1
+	e-1   <b2..r   b-2r> Q4 ede Q7   a1
+
+
+E	l24 o5
+	r16.c<bb-aa-gg-32 @5 L l8
+	V104 d1   f1   f1   f4.e-&e-2
+	d1&   d1   V112 o4 re(20e4)20e-(20e-4)20d(20d4)20d-(20d-)20c4
+
+	V108 o4 r2r  f4.&   f2.   r2.a4&   a1
+	g-1&   g-2..r   r1   rra&b-& b-2
+	(20b-)20rrrrg-(20g-r)20   e-4.e-4.g-4
+	a-(20a-)20rrrrrr   V112 o4 <b&>crc&c4.r   e&frf&f4.&f+16&g16& a-1&
+
+	g-1&   g-1  r2..  d-&   d-&e-&d-&<b&b2&
+	>d-1&   d-1    a-4&b-&g-4rr  g-&   g-4&f4&e-4&d-4&
+	d-1&   d-2..&  d-&   d-2..&e-16&f16&   >g1
+	(15b-1&   )3b-4&)3b-4&)3b-4&)3 b-8b8&)3   b1&   (3b4&(3b4&(3b4&(3b4 )12
+	<b-2r  Q4 g-e-g- Q7   e2.rr    f1&   e1
+
+
+F	l16
+	r4. L
+	[!og8!hg !hg]15 !og!hg !hg !hg
+	[!og8!hg !hg]8  !og !og !og8r8!og8r4!og !og !og8r4!og8r8!og8r8
+
+	[!og8!hg !hg]30 !og!hg !hg !hg
+	[!og8!hg !hg]2!og8 !og8!hg8 !hg8
+	[!og8!hg !hg]2!og8 !og8 !hg8 !og !og
+	[!og8!hg !hg]14 !og8 !og8 !og8 !og8
+
+	l8
+	[!hg !hg !og!hg]6 !hg !hg!og!hg !hg!og !og!hg16 !hg16
+	[!hg !hg !og!hg]6 !hg !hg!og!hg !hg!og !og !og
+	[!hg !hg !og!hg]6 !hg !hg!og!hg !hg!og !hg !hg
+	[!hg r!hg !hg!og r!hg!og !hg r!hg !hg!og rr!hg]2
+	!hg r!hg !hg!og r!hg!og !hg r!hg !hg!og!hg!og!hg
+	[!hg !hg!og!hg]2 !hg !hg !hg !hg l16!og !og !og r!og !og !og !og
+

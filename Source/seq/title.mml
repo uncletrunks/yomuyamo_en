@@ -1,0 +1,49 @@
+
+#Title		‚o‚q‚d‚s‚s‚x
+#Title2		Composer : KNN
+
+
+;ƒhƒ‰ƒ€ƒp[ƒg—pƒ}ƒNƒİ’è
+!!bg @6  V125 ?o4c   ; bass drum
+!!sg @8  V120 ?o4c   ; snare drum 1
+!!hg @10 V90  ?o4c   ; closeH.H.
+!!tg @13 V110 ?o4c   ; synth tom (hi)
+!!ug @14 V110 ?o4c   ; synth tom (mid)
+!!vg @15 V110 ?o4c   ; synth tom (low)
+
+
+A	T140
+A	@4 V116 E240,125,110,250
+B	@5 V127 E255,125,110,50 Y7,140,80,40
+C	@5 V120 E255,125,110,50 Y7,140,80,40
+D	=1
+
+
+; BASS
+A	o3 l16
+	[[ crrc<grg8> : crcr<greg>]2 : crr4.
+	[ crrc<grg8> : crcr<greg>]2 cr<g32r32grgag> ]2 crcr<grgr
+	l32 cdefgab>cdefgagfe l16 c32r32cc32r32c32r32<b-8 b>c32r32rr<crc32r32c
+
+
+; MOLODY 1
+B	o5 l16
+	[ cdrcere8 cr<g8ag8. b-rrb-8.ar grr4.>
+	:  cdrcere8 cr<g8ag8. b-rrb-8.>c8 drr4. ]2
+	cdrcerfg erc8<b-rb>c rrcrccrr
+
+
+; MELODY 2
+C	o4 l16
+	[ efregrg8 ere8fe8. erre8.fr err4.
+	: efregrg8 ere8fe8. erre8.a8 grr4. ]2
+	efregrb->c <grerdre-erreree
+
+
+; DRUM
+D	l8
+	[[!bg!hg!bg!hg]3 : !bg!tg!ug!bg32 !bg32 !bg32 !bg32
+	!bg !bg16 !bg16!sg r16!sg16 !bg r!sg r !bg r16!bg16!sg !sg  !bg !bg!sg !sg16 !sg16]2
+	!bg!sg16 !sg16 !bg16 !sg16 r16!sg16
+	!bg!hg!bg!hg16!bg16 !sg24 !sg24 !sg24 !tg16 !tg16 !ug16 !ug16 !vg16 !vg16 !bg !sg !sg16 !sg16
+

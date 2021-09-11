@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+                
+  <meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+                
+  <meta name="Author" content="HANAI Akiyoshi">
+                
+  <meta name="GENERATOR" content="Mozilla/4.73 [ja] (Win98; U) [Netscape]">
+                
+  <meta name="KeyWords" content="パズル">
+  <title>Yomuyamo</title>
+</head>
+  <body text="#000000" bgcolor="#eff7ff" link="#0000ff" vlink="#009900" alink="#000088">
+    &#160;    
+<center>    
+<p>Fighting Card Game </p>
+     
+<p><font color="#996633"><font size="+3">Yomuyamo</font></font> </p>
+     
+<p><img src="yomyamo3.png" height="176" width="256" alt="次の１手">
+    <br>
+   &#160; </p>
+     </center>
+<p><br>
+     </p>
+     
+<p>　How to read your opponents moves、how to create an opportunity to strike, and how to unleash attacks faster. <br>
+   　This is a card-style fighting game where calculation (ESP?) means everything.<br>
+   &#160; </p>
+     
+<p>★　How To Use　★ <br>
+   　Use WinISD (P/ECE Communicator) to transfer "yomyamo.pex" to the P/ECE.<br>
+   　Press exit in the title screen to quit. </p>
+     
+<p><br>
+★　Rules　★&#160;<br>
+   　This is a 1v1 fighting game. The first player to reduce their opponent's HP to 0 by selecting cards and attacking wins.</p>
+     
+<p>　Each attack card has a "wind up" time before the attack occurs. If both players attack at the same time, the attack with the shorter wind up time will hit. The attack with the longer wind up time will be canceled.<br>
+   　In the next action, the attacker hit by the shorter attack will suffer a 3-count penalty (or 6-count if the attack is a sweep or throw). In other words, the next attack time will look like so:<br>
+   &#160;&#160;&#160; For the person who hit:&#160;&#160; &#160;&#160; &#160;&#160;&#160; &#160; Post action cooldown ＋ Next action wind-up<br>
+   &#160;&#160;&#160; For the person who was hit:&#160;&#160;&#160; 3-count (or 6-count) penalty ＋ Next attack wind-up<br></p>
+     
+<p>For example: <br>
+In the start of this game, when both players are in the same position, Player 1 selects "Jab" (1-count windup) and Player 2 selects "Cross" (2-count wind-up). Player 1's attack happens after 1-count of time has passed, and it hits player 2 in the "wind up" state.<br>
+If player one chooses "Divekick" (3-count wind-up) and Player 2 chooses "Cross" (2-count wind-up), then Player 1's attack will occur after 1+3 and Player 2's will after 3+2, so Player 1's will hit again.</p>
+
+     
+<div align="Center">   
+<p><img src="yom_ex0.png" alt="例1" width="256" height="176" align="Center">
+   　　→　　<img src="yom_ex1.png" alt="例２" width="256" height="176" align="Center">
+   　　→　　<img src="yom_ex2.png" alt="例3" width="256" height="176" align="Center">
+   <br>
+   <br>
+   </p>
+   </div>
+     
+<p>　In addition to attacking, you can "guard," which counts as a previous action and incurs a cool-down. If you guard in time with your opponent's attack, you can perform your next action without taking damage (except in case of a "throw") and without a penalty.<br>
+   </p>
+     
+<p>　Some minor points: <br>
+   &#160;&#160;&#160; ・ If a player is hit by a sweep or throw, the opponent will fall and the penalty will be 6 counts instead of 3.<br>
+   &#160;&#160;&#160; ・ If both players' attacks hit at the same time, they will both take damage. Depending on the opponent's attack, the state of the player will either be "hit" or "fall." However, a throw will not result in a collision, and will win unilaterally.<br>
+   &#160;&#160;&#160; ・ If you are in the guard state at the same time as your opponent's attack, you will still be in the guard state.<br>
+   &#160;&#160;&#160; ・ A throw can damage an opponent even in a guard state.</p>
+     
+<p><br>
+   　Actions are done by playing cards in your hand. Each hand consists of 5 cards, restored at the end of each round.<br>
+   　The 20 cards are split between the two players and their contents are consistent between rounds. The breakdown is 3 cards for "Guard" and "Jab," and 2 cards for each of the others. The cards are not mixed or exchanged, so no one player can play "Guard" four times or "Throw" three times.<br>
+   　If both players are still standing after all 20 cards have been used, the player with the most remaining HP wins.<br>
+   <br>
+   </p>
+     
+<p><br>
+★　Action List　★</p>
+     
+<p>・Guard&#160;&#160;&#160; &#160;&#160;&#160; ３x<br>
+   &#160;&#160;&#160; Guards against attack. A successful guard saves you from taking damage, incurs no penalty or cooldown, and your opponent's penalty is the cooldown after their attack. However, throws will defeat guards.</p>
+     
+<p>・Jab&#160; &#160; &#160; &#160;&#160; ３x&#160;&#160;&#160; &#160;&#160;&#160; Power 5&#160;&#160;&#160; Wind-up 1&#160;&#160;&#160; Cooldown 1<br>
+   &#160;&#160;&#160; Since it's so weak, it's mostly used for canceling attacks. If it hits you get a 2-count head start on your next attack.</p>
+     
+<p>・Cross&#160;&#160;&#160; ２x&#160;&#160;&#160; &#160;&#160;&#160; Power １５&#160;&#160;&#160; Wind-up２&#160;&#160;&#160; Cooldown ２<br>
+   &#160;&#160;&#160; The power and wind-up/cooldown are all pretty good. If it hits, you will still have a 1-count head start.</p>
+     
+<p>・Uppercut&#160; &#160;&#160;&#160; ２x&#160;&#160;&#160; &#160;&#160;&#160; Power ２５&#160;&#160;&#160; Wind-up ２&#160;&#160;&#160; Cooldown ４<br>
+   &#160;&#160;&#160; This attack has a long cooldown, but it has a pretty short wind-up so you'll have lots of chances to use it. Even if it does hit, your opponent will have a slight head start. If your opponent's attack is just a jab, it's probably better to just hit each other.</p>
+     
+<p>・Roundhouse&#160;&#160;&#160; ２x&#160;&#160;&#160; &#160;&#160;&#160; Power ２５&#160;&#160;&#160; Wind-up 3&#160;&#160;&#160; Cooldown ２<br>
+   &#160;&#160;&#160; It's a little slow to wind-up, but it has substantial attack power and if it hits, you'll still have a small head start.</p>
+     
+<p>・Divekick&#160;&#160;&#160;&#160;&#160;&#160; ２x&#160;&#160;&#160; &#160;&#160;&#160; Power ４０&#160;&#160;&#160; Wind-up ３&#160;&#160;&#160; Cooldown ４<br>
+   &#160;&#160;&#160; The wind-up and cooldown times are long, but if you hit, it's super powerful. If it's your last attack, the length of the back movement is not a problem.</p>
+     
+<p>・Ram&#160;&#160; &#160;&#160;&#160; ２x&#160;&#160;&#160; &#160;&#160;&#160; Power ３０&#160;&#160;&#160; Wind-up ４&#160;&#160;&#160; Cooldown １<br>
+   &#160;&#160;&#160; The wind-up is long, but the cooldown is short. It has a 1-count penalty if it is guarded, and a 2-count advantage if it hits, same as a jab.</p>
+     
+<p>・Throw&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; 　２x&#160;&#160;&#160; &#160;&#160;&#160; Power ３０&#160;&#160;&#160; Wind-up ４&#160;&#160;&#160; Cooldown ６<br>
+   &#160;&#160;&#160; Use this to push through a guard. It has a long cooldown, but it will never be guarded, and the opponent who is hit by it will be in the same 6-count "fall" state, so there is no advantage or disadvantage in your next action. If the attack is simultaneous with your opponent's attack, the throw will always win. </p>
+     
+<p>・Sweep&#160;&#160;&#160; &#160;&#160; &#160;&#160; ２x&#160;&#160;&#160; &#160;&#160;&#160; Power １５&#160;&#160;&#160; Wind-up ４&#160;&#160;&#160; Cooldown 3<br>
+   &#160;&#160;&#160; If you manage to hit your opponent, he will be in a "fall" state and you will have a huge advantage. Even if you hit each other, the advantage will remain.<br>
+<br>
+</p>
+<p>   </p>
+     
+<p><br>
+★　User Guide　★ <br>
+   　D-Pad&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Choosing cards<br>
+   　A Button&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Confirming card selection<br>
+   　START &#160;&#160;&#160; &#160;&#160;&#160; &#160; Open Menu <br>
+   　SELECT &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Toggle Sound </p>
+     
+<p>　Game Modes<br>
+   &#160;&#160;&#160; &#160;&#160;&#160; VS &#160;COM&#160;&#160; &#160;&#160;&#160; &#160;Fight the computer.<br>
+   &#160;&#160;&#160; &#160;&#160;&#160; VS &#160;MAN&#160;&#160;&#160; &#160;&#160;&#160; Hot-seat multiplayer. <br>
+   </p>
+     
+<p><br>
+ ★　Caution　★ <br>
+   　This program is freeware. Use, distribution, modification is allowed, but no warranty is provided. </p>
+     
+<p><br>
+ ★　Thanks　★ <br>
+   　This program uses font data by MSY and music data by Kenichi Matsumoto. Both were published in Gekkan Dennou Club and converted for P/ECE.
+<br>
+   　I would like to thank all the authors. <br>
+   &#160; </p>
+     
+<center>
+<hr size="3" width="100%"></center>
+    Copyright(C)&#160; 2002&#160; HANAI Akiyoshi <br>
+   &#160;    
+</body>
+</html>

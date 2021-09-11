@@ -1,0 +1,25 @@
+
+#Title		¹Þ°Ñµ°ÊÞ°
+#Title2		Composer : KNN
+
+
+A	T155
+A	@4 V116 E240,125,110,250
+B	@4 V116 E255,125,110,50 Y7,140,80,40
+C	@4 V110 E255,125,110,50 Y7,140,80,40
+
+
+; BASS
+A	o3 l16
+	grrrrrrr   rrrrrrrr   rr>crcrc
+
+
+; MOLODY 1
+B	o4 l16
+	frdrgrda   g8arbr>cr   rrcrcrc
+
+
+; MELODY 2
+C	o4 l16
+	dr<br>dr<b>f   e8frgrer   rrerere
+
